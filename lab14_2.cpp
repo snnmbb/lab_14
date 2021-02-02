@@ -11,5 +11,6 @@ int main(){
 	for(int i = 0; i<5; i++) cout << data[i] << " ";
 	sort(&data[5],&data[10]);
 	for(int i = 5; i<10; i++) cout << data[i] << " ";
+	
 	return 0;
 }
